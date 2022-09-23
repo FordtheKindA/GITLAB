@@ -21,15 +21,15 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 );
-    if (strcmp(G,"A") ==0)
+    if (strcmp(G,"B") ==0)
     {
-      printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
-      printf("  You can receive blood from: A, O.\n");
-    }
-    else if (strcmp(G, "B") ==0)
-    {
-      printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
+      printf("%s, B. Hey, you can give blood to: B, AB.\n", Name);
       printf("  You can receive blood from: B, O.\n");
+    }
+    else if (strcmp(G, "A") ==0)
+    {
+      printf("%s, A. Well, you can give blood to: A, AB.\n", Name);
+      printf("  You can receive blood from: A, O.\n");
     }
     else if (strcmp(G, "AB") == 0)
     {
